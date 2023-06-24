@@ -16,7 +16,7 @@ public class IntegerToRoman {
         return ans.toString();
     }
 
-    public static String mostVotesSulotions(int num) {
+    public static String mostVotesSolutions(int num) {
         String M[] = {"", "M", "MM", "MMM"};
         String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
         String X[] = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
